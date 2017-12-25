@@ -1,0 +1,22 @@
+{
+    "author": "dokkis",
+    "website": "https://github.com/dokkis/qnap-torrent-providers",
+    "name": "thepiratebay.org",
+    "addon": "thepiratebay.org.php",
+    "class": "thepiratebay",
+    "hosts": [
+        "thepiratebay.org"
+    ],
+    "domain": "thepiratebay.org",
+    "version": 100,
+    "interface": [
+        "ISearch"
+    ],
+    "qpkg_dependencies": {
+        "DownloadStation": "5.0.1"
+    },
+    "description": {
+        "ENG": "ThePirateBay.org torrent search provider."
+    }
+}
+
