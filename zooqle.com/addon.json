@@ -1,0 +1,22 @@
+{
+    "author": "dokkis",
+    "website": "https://github.com/dokkis/qnap-torrent-providers",
+    "name": "zooqle.com",
+    "addon": "zooqle.com.php",
+    "class": "zooqle",
+    "hosts": [
+        "zooqle.com"
+    ],
+    "domain": "zooqle.com",
+    "version": 100,
+    "interface": [
+        "ISearch"
+    ],
+    "qpkg_dependencies": {
+        "DownloadStation": "5.0.1"
+    },
+    "description": {
+        "ENG": "Zooqle.com torrent search provider."
+    }
+}
+
