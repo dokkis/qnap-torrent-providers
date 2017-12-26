@@ -4,6 +4,7 @@ Unofficial QNap Download Station torrent add-on repository for additional torren
 ## Torrent providers implemented:
 * zooqle.com
 * thepiratebay.org
+* limetorrents.cc
 
 ## Installation
 1. Go under releases: https://github.com/dokkis/qnap-torrent-providers/releases

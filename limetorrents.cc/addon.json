@@ -1,0 +1,22 @@
+{
+    "author": "dokkis",
+    "website": "https://github.com/dokkis/qnap-torrent-providers",
+    "name": "limetorrents.cc",
+    "addon": "limetorrents.cc.php",
+    "class": "limetorrents",
+    "hosts": [
+        "limetorrents.cc"
+    ],
+    "domain": "limetorrents.cc",
+    "version": 100,
+    "interface": [
+        "ISearch"
+    ],
+    "qpkg_dependencies": {
+        "DownloadStation": "5.0.1"
+    },
+    "description": {
+        "ENG": "limetorrents.cc torrent search provider."
+    }
+}
+
