@@ -15,4 +15,8 @@ Unofficial QNap Download Station torrent add-on repository for additional torren
 
 **Note: DO NOT unzip the release file.**
 
-For additional torrent providers email me at dokkis@hotmail.it.
+## Contacts
+For sending feedback or request additional torrent providers, email me at dokkis@hotmail.it.
+
+## Offer a beer
+If you want to thank me for this project and/or support it to have more torrent providers, just buy me a beer using http://paypal.me/dokkis :)
