@@ -8,7 +8,7 @@
         "limetorrents.cc"
     ],
     "domain": "limetorrents.cc",
-    "version": 100,
+    "version": 101,
     "interface": [
         "ISearch"
     ],
