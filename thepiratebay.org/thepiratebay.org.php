@@ -44,13 +44,13 @@ class thepiratebay implements ISite, ISearch {
         $found = array();
         $success = function ($_, $_, $_, $body, $_) use(&$page, &$found, &$limit) {
             preg_match_all(
-                "`<tr.*".
-                    "<td.*<center>.*<a.*>(?P<category>.*)</a><br>.*</center>.*</td>.*" .
-                    "<td.*<div.*<a href=\"(?P<descriptionLink>.*)\".*>(?P<name>.*)</a>.*</div>.*</td>.*".
-                    "<a href=\"(?P<link>magnet:.*)\".*</a>.*".
-                    "<font.*>Uploaded (?P<time>.*), Size (?P<size>.*)&nbsp;(?P<unit>[a-zA-Z]*),.*</font>.*".
-                    "<td.*>(?P<seeds>\d+)</td>.*".
-                    "<td.*>(?P<leechers>\d+)</td>.*".
+                "`<tr.*" .
+                    "<td.*<a.*>(?P<category>.*)</a>.*</td>.*" .
+                    "<td.*<a href=\"(?P<descriptionLink>.*)\".*>(?P<name>.*)</a>.*" .
+                    "<a href=\"(?P<link>magnet:.*)\".*</a>.*" .
+                    "Uploaded (?P<time>.*), Size (?P<size>.*)&nbsp;(?P<unit>[a-zA-Z]*),.*</td>.*" .
+                    "<td.*>(?P<seeds>\d+)</td>.*" .
+                    "<td.*>(?P<leechers>\d+)</td>.*" .
                 "</tr>.*`siU",
                 $body,
                 $result
