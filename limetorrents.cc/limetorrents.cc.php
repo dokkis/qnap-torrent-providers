@@ -1,6 +1,6 @@
 <?php
 class limetorrents implements ISite, ISearch {
-    const SITE = "https://www-limetorrents-cc.pbproxy.lol"; // use a proxy because limetorrents.cc go into localhost in my QNAP.
+    const SITE = "https://www.limetorrents.lol"; // use a proxy because limetorrents.cc go into localhost in my QNAP.
     private $url;
     
     /*
